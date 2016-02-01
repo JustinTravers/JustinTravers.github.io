@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#whole_page {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:665px;
+	background-image:url(Background.png);
+}
+#title {
+	clear: both;
+	float: left;
+	margin-top:0px;
+	margin-left: 5%;
+	width: 90%;
+	display: block;
+	height:50px;
+	border: solid #4A2F1A 1px;
+	background-color:#E0AE52;
+	text-align:center;
+	vertical-align:middle;
+	font-size:20px;
+}
+#side_bar {
+	clear: both;
+	float: left;
+	margin-left: 5%;
+	width: 20%;
+	display: block;
+	height:408px;
+	border: solid #4A2F1A 1px;
+	background-color:#E0AE52;
+}
+#info_box {
+	clear: both;
+	float: left;
+	margin-top:-408px;
+	margin-left: 26%;
+	width: 69%;
+	display: block;
+	height:500px;
+	border: solid #4A2F1A 1px;
+	background-color:#FFF;
+}
+#info1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:125px;
+}
+#info2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:125px;
+}
+#info3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:125px;
+}
+#info4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:125px;
+}
+#home {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 25px;
+	display: block;
+	height:25px;
+}
+#info2 .pic1 {
+	float:right;
+	width:65%;
+}
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#whole_page {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:665px;
+	background-image:url(Background.png);
+}
+#title {
+	clear: both;
+	float: left;
+	margin-top:0px;
+	margin-left: 5%;
+	width: 90%;
+	display: block;
+	height:75px;
+	border: solid #4A2F1A 2px;
+	background-color:#E0AE52;
+	font-size:30px;
+}
+#side_bar {
+	clear: both;
+	float: left;
+	margin-left: 5%;
+	width: 15%;
+	display: block;
+	height:408px;
+	border: solid #4A2F1A 2px;
+	background-color:#E0AE52;
+}
+#info_box {
+	clear: both;
+	float: left;
+	margin-top:-380px;
+	margin-left: 25%;
+	width: 65%;
+	display: block;
+	height:410px;
+	border: solid #4A2F1A 2px;
+	background-color:#FFF;
+}
+#info1 {
+	clear: both;
+	float: left;
+	margin-left: 0%;
+	width: 50%;
+	display: block;
+	height:205px;
+}
+#info2 {
+	clear: both;
+	float: right;
+	margin-top:-205px;
+	margin-right: 0;
+	width: 50%;
+	display: block;
+	height:205px;
+}
+#info3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 50%;
+	display: block;
+	height:205px;
+}
+#info4 {
+	clear: both;
+	float: right;
+	margin-top:-205px;
+	margin-right: 0;
+	width: 50%;
+	display: block;
+	height:205px;
+}
+#home {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35px;
+	display: block;
+	height:35px;
+}
+#info2 .pic1 {
+	float:right;
+	width:85%;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#whole_page {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height:735px;
+	background-image:url(Background.png);
+}
+#title {
+	clear: both;
+	float: left;
+	margin-top:0px;
+	margin-left: 5%;
+	width: 90%;
+	display: block;
+	height:100px;
+	border: solid #4A2F1A 3px;
+	background-color:#E0AE52;
+	font-size:50px;
+}
+#side_bar {
+	clear: both;
+	float: left;
+	margin-left: 5%;
+	width: 15%;
+	display: block;
+	height:405px;
+	border: solid #4A2F1A 3px;
+	background-color:#E0AE52;
+}
+#info_box {
+	clear: both;
+	float: left;
+	margin-top:-380px;
+	margin-left: 25%;
+	width: 65%;
+	display: block;
+	height:450px;
+	border: solid #4A2F1A 3px;
+	background-color:#FFF;
+}
+#info1 {
+	clear: both;
+	float: left;
+	margin-left: 0%;
+	width: 50%;
+	display: block;
+	height:225px;
+}
+#info2 {
+	clear: both;
+	float: right;
+	margin-top:-225px;
+	margin-right: 0;
+	width: 50%;
+	display: block;
+	height:225px;
+}
+#info3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 50%;
+	display: block;
+	height:225px;
+}
+#info4 {
+	clear: both;
+	float: right;
+	margin-top:-225px;
+	margin-right: 0;
+	width: 50%;
+	display: block;
+	height:225px;
+}
+#home {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 45px;
+	display: block;
+	height:45px;
+}
+#info2 .pic1 {
+	float:right;
+	width:75%;
+}
+#info2 .pic2 {
+	float:left;
+	margin-top:-150px;
+	width:55%;
+}
+}
+
