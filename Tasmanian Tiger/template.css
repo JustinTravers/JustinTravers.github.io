@@ -120,6 +120,8 @@ img, object, embed, video {
 	width: 25px;
 	display: block;
 	height:25px;
+	position:relative;
+	z-index:1;
 }
 #info2 .pic1 {
 	float:right;
@@ -219,6 +221,8 @@ img, object, embed, video {
 	width: 35px;
 	display: block;
 	height:35px;
+	position:relative;
+	z-index:1;
 }
 #info2 .pic1 {
 	float:right;
@@ -321,6 +325,8 @@ img, object, embed, video {
 	width: 45px;
 	display: block;
 	height:45px;
+	position:relative;
+	z-index:1;
 }
 #info2 .pic1 {
 	float:right;
