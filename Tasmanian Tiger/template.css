@@ -330,7 +330,12 @@ img, object, embed, video {
 }
 #info2 .pic1 {
 	float:right;
-	width:75%;
+	width:55%;
 }
+#info3 .pic2 {
+	float:right;
+	width:55%;
+}
+
 }
 
