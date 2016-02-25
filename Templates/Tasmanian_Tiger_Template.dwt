@@ -46,20 +46,20 @@ Do the following if you're using your customized build of modernizr (http://www.
     	<div class="menu-wrap">
     	<nav class="menu">
         	<ul class="clearfix">
-				<li><a href="#">Story</a>
+				<li><a href="JustinTravers.github.io/Tasmanian Tiger/Story.html">Story</a>
 					<ul class="sub-menu">
-                    	<li><a href="#">Story</a></li>
-						<li><a href="#">Levels</a></li>
+                    	<li><a href="JustinTravers.github.io/Tasmanian Tiger/Story.html">Story</a></li>
+						<li><a href="JustinTravers.github.io/Tasmanian Tiger/Levels.html">Levels</a></li>
 					</ul>
                 </li>
-    			<li><a href="#">Characters</a>
+    			<li><a href="JustinTravers.github.io/Tasmanian Tiger/Characters.html">Characters</a>
                 	<ul class="sub-menu">
-                    	<li><a href="#">Characters</a></li>
-						<li><a href="#">Enemies</a></li>
+                    	<li><a href="">JustinTravers.github.io/Tasmanian Tiger/Characters.html</a></li>
+						<li><a href="JustinTravers.github.io/Tasmanian Tiger/Enemies.html">Enemies</a></li>
 					</ul>
                 </li>
-    			<li><a href="#">Items</a></li>
-    			<li><a href="#">Shop</a></li>
+    			<li><a href="JustinTravers.github.io/Tasmanian Tiger/Items.html">Items</a></li>
+    			<li><a href="ty the tasmanian tiger">Shop</a></li>
 
 			</ul>
         </nav>
@@ -69,9 +69,6 @@ Do the following if you're using your customized build of modernizr (http://www.
 	<div id="info_box">
   			<div id="info1"><!-- TemplateBeginEditable name="info1" --><!-- TemplateEndEditable --></div>
 			<div id="info2"><!-- TemplateBeginEditable name="info2" -->
-            <div class="pic1">
-            <img src="">
-            </div>
             <!-- TemplateEndEditable --></div>
     		<div id="info3"><!-- TemplateBeginEditable name="info3" --><!-- TemplateEndEditable --></div>
     		<div id="info4"><!-- TemplateBeginEditable name="info4" --><!-- TemplateEndEditable --></div>
