@@ -34,35 +34,57 @@ img, object, embed, video {
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:780px;
 	display: block;
+	background-color:#EBEBEB;
 }
 #Nav_Bar {
 	clear: both;
 	float: left;
 	margin-left: 0;
+	margin-top: 20px;
 	width: 100%;
+	height:75px;
 	display: block;
+	background-color:#000;
+	border-top:solid 2px #FFFFFF;
+	border-bottom:solid 3px #FFFFFF;
+	position:fixed;
 }
 #Header {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	margin-top: 17px;
+	width: 45%;
+	height:75px;
 	display: block;
+	text-indent:30px;
+	text-shadow:#CCC;
+	font-size:10px;
+	font-family:"Lucida Console", Monaco, monospace;
+	border-right:solid 1px #FFFFFF;
+	position:fixed; 
 }
 #Drop_Down {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 45%;
+	margin-top:-67px;
+	width: 55%;
+	height:75px;
 	display: block;
+	border-left:solid 1px #FFFFFF;
+	position:fixed;
 }
 #Whole_Content {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 10%;
+	margin-top: 150px;
+	width: 75%;
 	display: block;
+	background-color:#FFF;
 }
 #Content1 {
 	clear: both;
@@ -75,14 +97,19 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 0;
+	height:125px;
 	display: block;
+}
+#box1 img {
+	width:100%;
 }
 #Box2 {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	margin-left:0;
 	width: 100%;
+	height:125px;
 	display: block;
 }
 #Box3 {
@@ -90,6 +117,7 @@ img, object, embed, video {
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:125px;
 	display: block;
 }
 #Content2 {
@@ -103,142 +131,117 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width:100%;
+	height:125px;
 	display: block;
 }
 #Box5 {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	margin-left:0;
 	width: 100%;
+	height:125px;
 	display: block;
 }
 #Box6 {
 	clear: both;
 	float: left;
-	margin-left: 0;
+	margin-left:0;
 	width: 100%;
+	height:125px;
 	display: block;
 }
 #Title {
 	clear: both;
 	float: left;
 	margin-left: 0;
+	margin-top:80px;
 	width: 100%;
+	height:30px;
 	display: block;
+	position:fixed;
+	background-color:#404040;
 }
-#Side_Bar {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Link1 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Link2 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Link3 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Link4 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Link5 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Link6 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Link7 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Link8 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Link9 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
-#Link10 {
-	clear: both;
-	float: left;
-	margin-left: 0;
-	width: 100%;
-	display: block;
-}
+
 #Drop_Down1 {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 25%;
+	height: 55px;
 	display: block;
+	margin-top:85px;
+	text-align:center;
+	text-indent:30px;
+	text-shadow:#CCC;
+	font-size:8px;
+	font-family:"Lucida Console", Monaco, monospace;
 }
 #Drop_Down2 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 25%;
+	margin-top:-55px;
+	width: 25%;
+	height: 55px;
 	display: block;
+	text-align:center;
+	text-align:center;
+	text-indent:30px;
+	text-shadow:#CCC;
+	font-size:8px;
+	font-family:"Lucida Console", Monaco, monospace;
 }
 #Drop_Down3 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 50%;
+	width: 25%;
+	height: 55px;
 	display: block;
+	margin-top:-55px;
+	text-align:center;
+	text-align:center;
+	text-indent:30px;
+	text-shadow:#CCC;
+	font-size:8px;
+	font-family:"Lucida Console", Monaco, monospace;
 }
 #Drop_Down4 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 75%;
+	margin-top:-55px;
+	width: 25%;
+	height: 55px;
 	display: block;
+	text-align:center;
+	text-align:center;
+	text-indent:30px;
+	text-shadow:#CCC;
+	font-size:8px;
+	font-family:"Lucida Console", Monaco, monospace;
 }
 #Logo {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 40%;
+	margin-top: 17px;
+	max-height:20px;
+	min-height:20px;
+	width: 20px;
 	display: block;
 }
+
+a:link, a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+a:hover {
+	color:#0F0;
+	text-decoration:none;
+}
+
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
@@ -249,35 +252,57 @@ img, object, embed, video {
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:780px;
 	display: block;
+	background-color:#EBEBEB;
 }
 #Nav_Bar {
 	clear: both;
 	float: left;
 	margin-left: 0;
+	margin-top: 20px;
 	width: 100%;
+	height:55px;
 	display: block;
+	background-color:#000;
+	border-top:solid 2px #FFFFFF;
+	border-bottom:solid 3px #FFFFFF;
+	position:fixed;
 }
 #Header {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	margin-top: 17px;
+	width: 45%;
+	height:55px;
 	display: block;
+	text-indent:30px;
+	text-shadow:#CCC;
+	font-size:14pxpx;
+	font-family:"Lucida Console", Monaco, monospace;
+	border-right:solid 1px #FFFFFF;
+	position:fixed; 
 }
 #Drop_Down {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 45%;
+	margin-top:-67px;
+	width: 55%;
+	height:55px;
 	display: block;
+	border-left:solid 1px #FFFFFF;
+	position:fixed;
 }
 #Whole_Content {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 10%;
+	margin-top: 150px;
+	width: 75%;
 	display: block;
+	background-color:#FFF;
 }
 #Content1 {
 	clear: both;
@@ -290,21 +315,29 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 33.3%;
+	height:230px;
 	display: block;
+}
+#box1 img {
+	width:100%;
 }
 #Box2 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 33.3%;
+	margin-top:-230px;
+	width: 33.3%;
+	height:230px;
 	display: block;
 }
 #Box3 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 66.6%;
+	margin-top:-460px;
+	width: 33.3%;
+	height:230px;
 	display: block;
 }
 #Content2 {
@@ -318,142 +351,231 @@ img, object, embed, video {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 33.3%;
+	height:230px;
 	display: block;
 }
 #Box5 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 33.3%;
+	margin-top:-230px;
+	width: 33.3%;
+	height:230px;
 	display: block;
 }
 #Box6 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 66.6%;
+	margin-top:-460px;
+	width: 33.3%;
+	height:230px;
 	display: block;
 }
 #Title {
 	clear: both;
 	float: left;
 	margin-left: 0;
+	margin-top:80px;
 	width: 100%;
+	height:30px;
 	display: block;
+	position:fixed;
+	background-color:#404040;
 }
 #Side_Bar {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 85%;
+	margin-top:-460px;
+	width: 10%;
+	height:458px;
 	display: block;
+	background-color:#000;
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
+	border-right:solid 2px #FFF;
 }
 #Link1 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:44px;
 	display: block;
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
 }
 #Link2 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:44px;
 	display: block;
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
 }
 #Link3 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:44px;
 	display: block;
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
 }
 #Link4 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:44px;
 	display: block;
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
 }
 #Link5 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:44px;
 	display: block;
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
 }
 #Link6 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:44px;
 	display: block;
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
 }
 #Link7 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:44px;
 	display: block;
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
 }
 #Link8 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:44px;
 	display: block;
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
 }
 #Link9 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:44px;
 	display: block;
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
 }
 #Link10 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	height:44px;
 	display: block;
+	border-top:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
 }
 #Drop_Down1 {
 	clear: both;
 	float: left;
 	margin-left: 0;
-	width: 100%;
+	width: 25%;
+	height: 55px;
 	display: block;
+	margin-top:85px;
+	text-align:center;
+	text-indent:30px;
+	text-shadow:#CCC;
+	font-size:10px;
+	font-family:"Lucida Console", Monaco, monospace;
 }
 #Drop_Down2 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 25%;
+	margin-top:-55px;
+	width: 25%;
+	height: 55px;
 	display: block;
+	text-align:center;
+	text-align:center;
+	text-indent:30px;
+	text-shadow:#CCC;
+	font-size:10px;
+	font-family:"Lucida Console", Monaco, monospace;
 }
 #Drop_Down3 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 50%;
+	width: 25%;
+	height: 55px;
 	display: block;
+	margin-top:-55px;
+	text-align:center;
+	text-align:center;
+	text-indent:30px;
+	text-shadow:#CCC;
+	font-size:10px;
+	font-family:"Lucida Console", Monaco, monospace;
 }
 #Drop_Down4 {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 75%;
+	margin-top:-55px;
+	width: 25%;
+	height: 55px;
 	display: block;
+	text-align:center;
+	text-align:center;
+	text-indent:30px;
+	text-shadow:#CCC;
+	font-size:10px;
+	font-family:"Lucida Console", Monaco, monospace;
 }
 #Logo {
 	clear: both;
 	float: left;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 40%;
+	margin-top: 12px;
+	max-height:30px;
+	min-height:30px;
+	width: 30px;
 	display: block;
 }
+
+a:link, a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+a:hover {
+	color:#0F0;
+	text-decoration:none;
+}
+
 
 }
 
@@ -525,9 +647,6 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
-#content1.img {
-	width:100%;
-}
 #Box1 {
 	clear: both;
 	float: left;
@@ -535,6 +654,9 @@ img, object, embed, video {
 	width: 33.3%;
 	height:230px;
 	display: block;
+}
+#box1 img {
+	width:100%;
 }
 #Box2 {
 	clear: both;
