@@ -37,12 +37,12 @@ Do the following if you're using your customized build of modernizr (http://www.
 <div id="Whole_Page">
   
 <div id="Nav_Bar">
-	<div id="Header"><a href="#">The Reptilian Elite</a></div>
+	<div id="Header"><a href="JustinTravers.github.io/Reptilian_Elite/index.html">The Reptilian Elite</a></div>
     <div id="Logo"><img src="../Logo.jpg"/></div>
 <div id="Drop_Down">
-   	  <div id="Drop_Down1"><a href="#">Theory</a></div>
-      <div id="Drop_Down2"><a href="#">Proof</a></div>
-      <div id="Drop_Down3"><a href="#">Significance</a></div>
+   	  <div id="Drop_Down1"><a href="JustinTravers.github.io/Reptilian_Elite/Theory.html">Theory</a></div>
+      <div id="Drop_Down2"><a href="JustinTravers.github.io/Reptilian_Elite/Proof.html">Proof</a></div>
+      <div id="Drop_Down3"><a href="JustinTravers.github.io/Reptilian_Elite/Significance.html">Significance</a></div>
       <div id="Drop_Down4"><a href="#">Refrences</a></div>
     </div>
 </div>
