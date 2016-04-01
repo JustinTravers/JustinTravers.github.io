@@ -42,7 +42,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 <div id="Drop_Down">
    	  <div id="Drop_Down1"><a href="#">Theory</a></div>
       <div id="Drop_Down2"><a href="#">Proof</a></div>
-      <div id="Drop_Down3"><a href="#">Counter Arguement</a></div>
+      <div id="Drop_Down3"><a href="#">Significance</a></div>
       <div id="Drop_Down4"><a href="#">Refrences</a></div>
     </div>
 </div>
