@@ -1,0 +1,119 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="Portfolio.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="Whole_Page">
+  
+  	<div id="Nav_Bar">
+   	  <div id="Drop_Down">
+      	<div id="Button1">
+        	<button onclick="display1()">button 1</button>
+        </div>
+        <div id="Button2">
+        	<button onclick="display2()">button 2</button>
+        </div>
+        <div id="Button3">
+        	<button onclick="display3()">button 3</button>
+        </div>
+      </div>
+      <div id="Title"></div>
+      <div id="Logo"></div>
+  	</div>
+  	<div id="Whole_Content">
+   	  <div id="Top_Box"></div>
+      <div id="Bottom_Box"></div>
+    </div>
+    
+    <div id="Side_Box">
+   	  <div id="Left_Box">
+   	    <div id="p1"><p>1</p></div>
+        <div id="p4"><p>4</p></div>
+      </div>
+      <div id="Middle_Box">
+      	<div id="p2"><p>2</p></div>
+        <div id="p5"><p>5</p></div>
+      </div>
+      <div id="Right_Box">
+      	<div id="p3"><p>3</p></div>
+      	<div id="p6"><p>6</p></div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<body onload="L()">
+    <script>
+	function L(){
+		document.getElementById('1').style.display="none";
+		document.getElementById('2').style.display="none";
+		document.getElementById('3').style.display="none";
+		document.getElementById('4').style.display="none";
+		document.getElementById('5').style.display="none";
+		document.getElementById('6').style.display="none";
+		document.getElementById('7').style.display="none";
+
+
+	}
+	function display1(){
+		document.getElementById('1').style.display="block";
+		document.getElementById('2').style.display="none";
+		document.getElementById('3').style.display="none";
+		document.getElementById('4').style.display="none";
+		document.getElementById('5').style.display="block";
+		document.getElementById('6').style.display="none";
+		document.getElementById('7').style.display="none";
+
+
+	}
+	function display2(){
+		document.getElementById('1').style.display="none";
+		document.getElementById('2').style.display="block";
+		document.getElementById('3').style.display="none";
+		document.getElementById('4').style.display="none";
+		document.getElementById('5').style.display="none";
+		document.getElementById('6').style.display="block";
+		document.getElementById('7').style.display="none";
+
+
+	}
+	function display3(){
+		document.getElementById('1').style.display="block";
+		document.getElementById('2').style.display="none";
+		document.getElementById('3').style.display="block";
+		document.getElementById('4').style.display="block";
+		document.getElementById('5').style.display="none";
+		document.getElementById('6').style.display="none";
+		document.getElementById('7').style.display="none";
+
+
+	}
+	</script>
+</body>
+</html>

@@ -1,0 +1,699 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Whole_Page {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:800px;
+	display: block;
+}
+#Nav_Bar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:50px;
+	display: block;
+}
+#Drop_Down {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 75%;
+	height:50px;
+	display: block;
+}
+#Button1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 33.3%;
+	height:50px;
+	display: block;
+}
+#Button2 {
+	clear: both;
+	float: left;
+	margin-left: 33.3%;
+	margin-top:-50px;
+	width: 33.3%;
+	height:50px;
+	display: block;
+}
+#Button3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-50px;
+	width: 33.3%;
+	height:50px;
+	display: block;
+}
+#Title {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-50px;
+	width: 0%;
+	height:50px;
+	display: block;
+}
+#Logo {
+	clear: both;
+	float: left;
+	margin-left: 75%;
+	margin-top:-50px;
+	width: 25%;
+	height:50px;
+	display: block;
+}
+#Whole_Content {
+	clear: both;
+	float: left;
+	margin-left: 5%;
+	margin-top:25px;
+	width: 90%;
+	height:700px;
+	display: block;
+}
+#Top_Box {
+	clear: both;
+	float: left;
+	margin-left:5%;
+	margin-top: 50px;
+	width: 90%;
+	height:300px;
+	display: block;
+}
+#Bottom_Box {
+	clear: both;
+	float: left;
+	margin-left: 5%;
+	width: 90%;
+	height:300px;
+	display: block;
+}
+#Side_Box {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-725px;
+	width: 75%;
+	height: 300px;
+	display: block;
+}
+#Left_Box {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 33.3%;
+	height:300px;
+	display: block;
+}
+#Middle_Box {
+	clear: both;
+	float: left;
+	margin-left: 33.3%;
+	margin-top:-300px;
+	width: 33.3%;
+	height:300px;
+	display: block;
+}
+#Right_Box {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-300px;
+	width: 33.3%;
+	height:300px;
+	display: block;
+}
+#p1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:300px;
+	display: block;
+	/*Image Scroll*/
+	background-color:#FFF; /*White*/
+	background:; /*Image*/
+}
+#p2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:300px;
+	display: block;
+	/*Image Scroll*/
+	background-color:#FFF; /*White*/
+	background:; /*Image*/
+}
+#p3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:300px;
+	display: block;
+	/*Image Scroll*/
+	background-color:#FFF; /*White*/
+	background:; /*Image*/
+}
+#p4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-300px;
+	width: 100%;
+	height:300px;
+	display: block;
+}
+#p5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-300px;
+	width: 100%;
+	height:300px;
+	display: block;
+}
+#p6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-300px;
+	width: 100%;
+	height:300px;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Whole_Page {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:788px;
+	display: block;
+	/*Image Desktop Background*/
+	background-color:#F00; /*White*/
+	background:; /*Image*/
+}
+#Nav_Bar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:15px;
+	width: 100%;
+	height:75px;
+	display: block;
+	background-color:#0F0;
+}
+#Drop_Down {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 25%;
+	height:75px;
+	display: block;
+}
+#Button1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 33.3%;
+	height:75px;
+	display: block;
+}
+#Button2 {
+	clear: both;
+	float: left;
+	margin-left: 33.3%;
+	margin-top:-75px;
+	width: 33.3%;
+	height:75px;
+	display: block;
+}
+#Button3 {
+	clear: both;
+	float: left;
+	margin-left: 66.6%;
+	margin-top:-75px;
+	width: 33.3%;
+	height:75px;
+	display: block;
+}
+#Title {
+	clear: both;
+	float: left;
+	margin-left: 25%;
+	margin-top:-75px;
+	width: 60%;
+	height:75px;
+	display: block;
+}
+#Logo {
+	clear: both;
+	float: left;
+	margin-left: 0%;
+	margin-top:-75px;
+	width: 15%;
+	height:75px;
+	display: block;
+}
+#Whole_Content {
+	clear: both;
+	float: left;
+	margin-left: 27%;
+	margin-top:10px;
+	width: 70%;
+	height:648px;
+	display: block;
+	/*Image Book*/
+	background-color:#FF0; /*White*/
+	background:; /*Image*/
+}
+#Top_Box {
+	clear: both;
+	float: left;
+	margin-left: 5%;
+	margin-top:20px;
+	width: 90%;
+	height:304px;
+	display: block;
+	background-color:#00F;
+}
+#Bottom_Box {
+	clear: both;
+	float: left;
+	margin-left: 5%;
+	width: 90%;
+	height:304px;
+	display: block;
+	background-color:#0FF;
+}
+#Side_Box {
+	clear: both;
+	float: right;
+	margin-right: 75%;
+	margin-top:-658px;
+	width: 25%;
+	height:508px;
+	display: block;
+	/*Image Book Shelf*/
+	background-color:#000; /*White*/
+	background:; /*Image*/
+}
+#Left_Box {
+	clear: both;
+	float: left;
+	margin-left:;
+	width: 33.3%;
+	height:508px;
+	display: block;
+	background-color:#F0F;
+}
+#Middle_Box {
+	clear: both;
+	float: left;
+	margin-left: 33.3%;
+	margin-top:-508px;
+	width: 33.3%;
+	height:508px;
+	display: block;
+	background-color:#369;
+}
+#Right_Box {
+	clear: both;
+	float: left;
+	margin-left: 66.6%;
+	margin-top:-508px;
+	width: 33.3%;
+	height:508px;
+	display: block;
+	background-color:#F00;
+}
+#p1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Scroll*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+#p2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Scroll*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+#p3 {
+	clear: both;
+	float: left;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Scroll*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+#p4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-508px;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Ladder Right*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+#p5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-508px;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Ladder Left*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+#p6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-508px;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Ladder Left*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Whole_Page {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:788px;
+	display: block;
+	/*Image Desktop Background*/
+	background-color:#F00; /*White*/
+	background:; /*Image*/
+}
+#Nav_Bar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:15px;
+	width: 100%;
+	height:75px;
+	display: block;
+	background-color:#0F0;
+}
+#Drop_Down {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 25%;
+	height:75px;
+	display: block;
+}
+#Button1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 33.3%;
+	height:75px;
+	display: block;
+}
+#Button2 {
+	clear: both;
+	float: left;
+	margin-left: 33.3%;
+	margin-top:-75px;
+	width: 33.3%;
+	height:75px;
+	display: block;
+}
+#Button3 {
+	clear: both;
+	float: left;
+	margin-left: 66.6%;
+	margin-top:-75px;
+	width: 33.3%;
+	height:75px;
+	display: block;
+}
+#Title {
+	clear: both;
+	float: left;
+	margin-left: 25%;
+	margin-top:-75px;
+	width: 60%;
+	height:75px;
+	display: block;
+}
+#Logo {
+	clear: both;
+	float: left;
+	margin-left: 0%;
+	margin-top:-75px;
+	width: 15%;
+	height:75px;
+	display: block;
+}
+#Whole_Content {
+	clear: both;
+	float: left;
+	margin-left: 27%;
+	margin-top:10px;
+	width: 70%;
+	height:648px;
+	display: block;
+	/*Image Book*/
+	background-color:#FF0; /*White*/
+	background:; /*Image*/
+}
+#Top_Box {
+	clear: both;
+	float: left;
+	margin-left: 5%;
+	margin-top:20px;
+	width: 90%;
+	height:304px;
+	display: block;
+	background-color:#00F;
+}
+#Bottom_Box {
+	clear: both;
+	float: left;
+	margin-left: 5%;
+	width: 90%;
+	height:304px;
+	display: block;
+	background-color:#0FF;
+}
+#Side_Box {
+	clear: both;
+	float: right;
+	margin-right: 75%;
+	margin-top:-658px;
+	width: 25%;
+	height:508px;
+	display: block;
+	/*Image Book Shelf*/
+	background-color:#000; /*White*/
+	background:; /*Image*/
+}
+#Left_Box {
+	clear: both;
+	float: left;
+	margin-left:;
+	width: 33.3%;
+	height:508px;
+	display: block;
+	background-color:#F0F;
+}
+#Middle_Box {
+	clear: both;
+	float: left;
+	margin-left: 33.3%;
+	margin-top:-508px;
+	width: 33.3%;
+	height:508px;
+	display: block;
+	background-color:#369;
+}
+#Right_Box {
+	clear: both;
+	float: left;
+	margin-left: 66.6%;
+	margin-top:-508px;
+	width: 33.3%;
+	height:508px;
+	display: block;
+	background-color:#F00;
+}
+#p1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Scroll*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+#p2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Scroll*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+#p3 {
+	clear: both;
+	float: left;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Scroll*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+#p4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-508px;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Ladder Right*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+#p5 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-508px;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Ladder Left*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+#p6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	margin-top:-508px;
+	width: 100%;
+	height:508px;
+	display: block;
+	/*Image Ladder Left*/
+	background-color:; /*White*/
+	background:; /*Image*/
+}
+
+}
+}
