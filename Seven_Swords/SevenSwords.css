@@ -377,7 +377,7 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 	background-color:#CCC;
-	background-image:url(gray_background.jpg);
+	border:solid 4px #999;
 }
 #Title {
 	clear: both;
@@ -420,6 +420,13 @@ img, object, embed, video {
 	width: 92%;
 	height:60px;
 	display: block;
+	text-align:center;
+}
+#Drop_Down a {
+	text-decoration:none;
+	font-size:1.25em;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#003;
 }
 #Link1 {
 	clear: both;
