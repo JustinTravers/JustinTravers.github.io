@@ -519,14 +519,34 @@ img, object, embed, video {
 	display: block;
 	background-color:#FFF;
 	border:ridge 4px #0FF;
+	overflow: scroll;
 }
+#Right_Content img {
+    float: left;
+	margin-left:10px;
+	margin-right:20px;
+	margin-top:10px;
+	margin-bottom:20px;
+	border:solid 2px #000000;
+	
+}
+
+#Right_Content p {
+	margin-left:10px;
+	margin-right:10px;
+	 text-align: justify;
+    text-indent: 2em;
+	font-size:1.15em;
+}
+
+
 #Top_Box1 {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
 	height:284px;
-	display: block;
+	display: none;
 	border-bottom:ridge 4px #0FF;
 }
 #Bottom_Box1 {
@@ -535,6 +555,6 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	height:290px;
-	display: block;
+	display: none;
 }
 }
