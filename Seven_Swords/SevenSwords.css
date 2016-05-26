@@ -50,17 +50,21 @@ img, object, embed, video {
 	height: 1025px;
 	display: block;
 	background-color:#CCC;
+	border:solid 4px #999;
 }
 #Title {
 	clear: both;
 	float: left;
 	margin-left: 0;
 	width: 100%;
-	height:35px;
+	height:50px;
 	display: block;
 	text-align:center;
 	font-size:1em;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#Title h2 {
+	text-shadow: 2px 2px 1px #888888;
 }
 #Nav_Bar {
 	clear: both;
@@ -72,6 +76,7 @@ img, object, embed, video {
 	display: block;
 	background-color:#FFF;
 	border:ridge 4px #0FF;
+	box-shadow: 10px 10px 5px #888888;
 }
 #Logo {
 	clear: both;
@@ -169,6 +174,7 @@ img, object, embed, video {
 	height:250px;
 	display: block;
 	border:ridge 4px #0FF;
+	box-shadow: 10px 10px 5px #888888;
 }
 #Bottom_Left {
 	clear: both;
@@ -187,6 +193,7 @@ img, object, embed, video {
 	display: block;
 	background-color:#FFF;
 	border:ridge 4px #0FF;
+	box-shadow: 10px 10px 5px #888888;
 }
 #Top_Box1 {
 	clear: both;
@@ -243,6 +250,9 @@ img, object, embed, video {
 	font-size:1.25em;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+#Title h2 {
+	text-shadow: 3px 3px 1px #888888;
+}
 #Nav_Bar {
 	clear: both;
 	float: left;
@@ -253,6 +263,7 @@ img, object, embed, video {
 	display: block;
 	background-color:#FFF;
 	border:ridge 4px #0FF;
+	box-shadow: 10px 10px 5px #888888;
 }
 #Logo {
 	clear: both;
@@ -350,6 +361,7 @@ img, object, embed, video {
 	height:150px;
 	display: block;
 	border:ridge 4px #0FF;
+	box-shadow: 10px 10px 5px #888888;
 }
 #Bottom_Left {
 	clear: both;
@@ -360,6 +372,7 @@ img, object, embed, video {
 	height:243px;
 	display: block;
 	border:ridge 4px #0FF;
+	box-shadow: 10px 10px 5px #888888;
 }
 #Right_Content {
 	clear: both;
@@ -371,6 +384,7 @@ img, object, embed, video {
 	display: block;
 	background-color:#FFF;
 	border:ridge 4px #0FF;
+	box-shadow: 10px 10px 5px #888888;
 }
 #Top_Box1 {
 	clear: both;
@@ -428,6 +442,9 @@ img, object, embed, video {
 	font-size:1.75em;
 	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+#Title h2 {
+	text-shadow: 5px 5px 2px #888888;
+}
 #Nav_Bar {
 	clear: both;
 	float: left;
@@ -440,6 +457,7 @@ img, object, embed, video {
 	border:ridge 4px #0FF;
 	font-size:1.25em;
 	text-decoration:none;
+	box-shadow: 10px 10px 5px #888888;
 }
 #Logo {
 	clear: both;
@@ -537,6 +555,7 @@ img, object, embed, video {
 	height:225px;
 	display: block;
 	border:ridge 4px #0FF;
+	box-shadow: 10px 10px 5px #888888;
 }
 #Bottom_Left {
 	clear: both;
@@ -547,6 +566,7 @@ img, object, embed, video {
 	height:318px;
 	display: block;
 	border:ridge 4px #0FF;
+	box-shadow: 10px 10px 5px #888888;
 }
 #Right_Content {
 	clear: both;
@@ -559,6 +579,7 @@ img, object, embed, video {
 	background-color:#FFF;
 	border:ridge 4px #0FF;
 	overflow: scroll;
+	box-shadow: 10px 10px 5px #888888;
 }
 #Right_Content img {
     float: left;
