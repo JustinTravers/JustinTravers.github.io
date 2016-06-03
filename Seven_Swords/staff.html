@@ -3,8 +3,7 @@
 <!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
 <!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="">
-<!-- InstanceBegin template="/Templates/SevenSwordsTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<html class=""><!-- InstanceBegin template="/Templates/SevenSwordsTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
 <!--<![endif]-->
 <head>
 <meta charset="utf-8">
@@ -31,55 +30,182 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
 </head>
-<body>
-<!-- InstanceBeginEditable name="EditRegion3" -->
+<body onLoad="timer()">
+<!-- InstanceBeginEditable name="EditRegion5" -->
+	<style>
+#Top_Box1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:284px;
+	display: none;
+	border-bottom:ridge 4px #0FF;
+}
+#Bottom_Box1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	height:290px;
+	display: none;
+}
+	</style>
+	  <!-- InstanceEndEditable -->
 <div class="gridContainer clearfix">
 <div id="Whole_Page">
-  <div id="Title">
-    <h2>SEVEN SWORDS PRODUCTION</h2>
-  </div>
+  
+  <div id="Title"><h2>SEVEN SWORDS PRODUCTION</h2></div>
+  
   <div id="Nav_Bar">
+  	
     <div id="Logo"></div>
+    
     <div id="Drop_Down">
-      <div id="Link1"><a href="#">
-        <p>Contact</p>
-        </a></div>
-      <div id="Link2"><a href="#">
-        <p>About Us</p>
-        </a></div>
-      <div id="Link3"><a href="#">
-        <p>Staff</p>
-        </a></div>
-      <div id="Link4"><a href="#">
-        <p>Products</p>
-        </a></div>
-      <div id="Link5"><a href="#">
-        <p>News</p>
-        </a></div>
-      <div id="Link6"><a href="#">
-        <p>Events</p>
-        </a></div>
+   	  <div id="Link1"><a href="#"><p>Contact</p></a></div>
+      <div id="Link2"><a href="#"><p>About Us</p></a></div>
+      <div id="Link3"><a href="#"><p>Staff</p></a></div>
+      <div id="Link4"><a href="#"><p>Products</p></a></div>
+      <div id="Link5"><a href="#"><p>News</p></a></div>
+      <div id="Link6"><a href="#"><p>Events</p></a></div>
+    
     </div>
+  
   </div>
+  
   <div id="Whole_Content">
+  	
     <div id="Top_Left"></div>
-    <div id="Bottom_Left"></div>
+    
+    <div id="Bottom_Left">
+    	<div id="slideshow">
+<img id="slideimg" src="slide_show1.png"/>
+	<script>
+		var image = [], x=0
+		
+		image[0]="slide_show1.png";
+		
+		image[1]="slide_show2.png";
+		
+		image[2]="slide_show3.png"; 
+		
+		image[3]="slide_show4.png";
+		
+		image[4]="slide_show5.png";
+		
+		image[5]="slide_show6.png";
+		
+		image[6]="slide_show7.png";
+		
+		image[7]="slide_show8.png";
+		
+		image[8]="slide_show9.png";
+		
+		image[9]="slide_show10.png";
+		
+		image[10]="slide_show11.png";
+		
+		image[11]="slide_show12.png";
+		
+		image[12]="slide_show13.png";
+		
+		function next(){
+			x= x + 1;
+			document.getElementById('slideimg').src = image[x]
+			if (x==12)
+			{x=0}
+		}
+		
+		function timer () {
+			setInterval(next, 2500);
+		}
+		</script>
+
+</div>
+    </div>
+    
     <div id="Right_Content">
-    		
-            	<img src="eric_staff_photo.jpg">
+   	  
+      <div id="Top_Box1"></div>
+      <!-- InstanceBeginEditable name="EditRegion1" -->
+	  <img src="eric_staff_photo.jpg">
                 
                 <p>Eric Devin Tootell, Jr. Position: CEO/Founder</p><p> When he was little, Eric dreamed of creating something that people around the world would enjoy. There was rarely a time when he wasn’t drawing pictures and writing stories. Eventually, his dream took the shape of a business. He experimented with mediums to express his ideas, such as novels, comics, and even video games. In the end, none of these seemed to fit his vision. It was then that he watched an episode of Dragon Ball Z: Kai. The style captivated him and inspired his pursuit of an anime­like television series. Though he started out small, the young visionary constantly worked toward his goals and eventually gained the support of others to finish what he started. He is not only responsible for creating and helping run SSP; he also writes and edits any documents and creates concept art for many of the characters. He acts as the main producer of many of the commodities created by SSP and had a hand in shaping them into what they are. When he isn’t hard at work, Eric enjoys watching anime, playing video games, and hanging out with his friends..</p>
                 
                 <img src="hannah_staff_photo.jpg">
                 
                 <p>Hannah Elizabeth Newman Position: CEO/Co­Founder</p> <p> Back in 2014, Eric asked Hannah to become a member of his organization. While she thought it was a cool idea, she wasn’t really interested. Then, she watched Ouran Highschool Host Club; her first anime. The style and the unique stories these shows had to offer captivated Hannah and sparked a new passion within her. She wanted to help make something just as wonderful and officially joined the company. Since then, she has become the backbone of SSP. She keeps employees in check, helps Eric with managing the company, and even edits documents and colors when she can. Hannah hopes that one day, the shows she helps create will make anime (and shows of similar caliber) socially acceptable worldwide. She also wants to inspire others by showing that, through hard work and determination, you can make your dreams a reality. Most of all, she just wants people to be able to enjoy the products SSP creates as much as she does. Hannah loves to color, sing, listen to music, and play video games in her spare time.</p>
-            
-      <div id="Top_Box1"></div>
+                
+                <img src="kaylee_staff_photo.jpg">
+
+<p>Kaylee Rounds Position: Co­Founder/Artist</p> <p>Artist
+
+I want to contribute to the creativity and originality of SSP to aid in its animation goals.
+
+I joined the company because not only is it a great source of experience, but because I wanted to help make 
+
+something such as the projects within the company great.
+
+I hope that by participating in SSP, I'll be able to sharpen my art skills, and learn how to truly animate.
+
+My hobbies include digital art, pen art, listening to music, making comics, writing, reading, doing JROTC drill.
+</p>
+
+			<img src="">
+
+<p>Dalamar Brissette Position: Co­Founder/Advisor</p>
+
+<p>When Eric first came up with the idea to start a business, Dalamar was the first to support him. 
+He always tries to help any way he could, coming up with ideas and giving advice on how to 
+better develop the company. He also acts as a salesman, assists in editing documents for 
+grammar mistakes, and even writes on occasion. Dalamar looks forward to the day the 
+company can bring its ideas to life. He believes that the projects we plan to make are 
+bring its ideas to life and expose the world to what we’re creating. He believes that 
+Dalamar is a humble, selfless person.
+
+Dalamar Brissette
+Salesman, Advisor
+You and i were the ones who birthed the idea of it. I thought it’d be a cool idea if we were able to bring the idea to life. 
+You had a lot of good ideas
+Honestly I hope we make it and get these ideas out there in the world and off the paper
+Hobbies: Gaming.</p>
+
+<img src="sanji_staff_photo.jpg">
+
+<p>Sanji Coleman Position: Co­Founder/Musician</p>
+
+<p>Sanji Coleman is a very talented individual. She can sing, write music, act and has a 
+very nice personality. Sanji first got involved with SSP when she thought that her talents 
+could help the company. She was friends with Eric at the time and thought it would be a 
+fun experience. Sanji, as a fine arts major, is helping to right the soundtracks to the 
+shows SSP produces. Sanji also helps out as an advertiser for the company helping to 
+get the word out there and setting up events. She also plans to be a voice actor in one 
+of the upcoming shows.
+Sanji Coleman
+
+I got involved trying to help a friend out, but using by business, advertising, and acting skills. I wanted to join, because I thought it would be a fun experience and opportunity. I'm an actor, singer, and fine arts major. I write scores, and theme songs, along with acting and writing scripts.</p>
+
+<img src="">
+
+<p>Michael Pisani Position: Co­Founder, Advisor</p>
+
+<p>“Unique” is an understatement when it comes to Michael. Whether it be ranting about pizza 
+bagels, or lasting a week on three hours of sleep playing Minecraft, his quirks never cease to 
+amaze. He is a huge nerd, spending most of his time binge­watching anime, reading manga, 
+and, aforementioned, playing video games. Through it all, Michael is very kind and supportive 
+person. Though he doesn’t have a specific role in the company, he helps by contributing ideas, 
+giving advice, and otherwise doing any work he can attend to. He hopes to someday branch off 
+of SSP and open a video game firm.</p>
+
+
+
+	  <!-- InstanceEndEditable -->
       <div id="Bottom_Box1"></div>
+      <!-- InstanceBeginEditable name="EditRegion2" --><!-- InstanceEndEditable -->
     </div>
+  
   </div>
+
 </div>
-<!-- InstanceEndEditable -->
 </body>
-<!-- InstanceEnd -->
-</html>
+<!-- InstanceEnd --></html>

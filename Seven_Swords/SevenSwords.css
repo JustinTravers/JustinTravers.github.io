@@ -193,8 +193,27 @@ img, object, embed, video {
 	display: block;
 	background-color:#FFF;
 	border:ridge 4px #0FF;
+	overflow: scroll;
 	box-shadow: 10px 10px 5px #888888;
 }
+#Right_Content img {
+    float: left;
+	margin-left:10px;
+	margin-right:20px;
+	margin-top:10px;
+	margin-bottom:20px;
+	border:solid 2px #000000;
+	
+}
+
+#Right_Content p {
+	margin-left:10px;
+	margin-right:10px;
+	text-align: justify;
+    text-indent: 2em;
+	font-size:1.15em;
+}
+
 #Top_Box1 {
 	clear: both;
 	float: left;
@@ -373,6 +392,11 @@ img, object, embed, video {
 	display: block;
 	border:ridge 4px #0FF;
 	box-shadow: 10px 10px 5px #888888;
+	background-color:#FFF;
+}
+#slideshow img {
+	min-height:243px;
+	max-height:243px;	
 }
 #Right_Content {
 	clear: both;
@@ -384,8 +408,27 @@ img, object, embed, video {
 	display: block;
 	background-color:#FFF;
 	border:ridge 4px #0FF;
+	overflow: scroll;
 	box-shadow: 10px 10px 5px #888888;
 }
+#Right_Content img {
+    float: left;
+	margin-left:10px;
+	margin-right:20px;
+	margin-top:10px;
+	margin-bottom:20px;
+	border:solid 2px #000000;
+	
+}
+
+#Right_Content p {
+	margin-left:10px;
+	margin-right:10px;
+	text-align: justify;
+    text-indent: 2em;
+	font-size:1.15em;
+}
+
 #Top_Box1 {
 	clear: both;
 	float: left;
@@ -563,10 +606,16 @@ img, object, embed, video {
 	margin-left: 5%;
 	margin-top:25px;
 	width: 30%;
-	height:318px;
+	min-height:318px;
+	max-height:318px;
 	display: block;
 	border:ridge 4px #0FF;
 	box-shadow: 10px 10px 5px #888888;
+	background-color:#FFF;
+}
+#slideshow img {
+	min-height:318px;
+	max-height:318px;	
 }
 #Right_Content {
 	clear: both;
@@ -594,7 +643,7 @@ img, object, embed, video {
 #Right_Content p {
 	margin-left:10px;
 	margin-right:10px;
-	 text-align: justify;
+	text-align: justify;
     text-indent: 2em;
 	font-size:1.15em;
 }
@@ -606,7 +655,7 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	height:284px;
-	display: none;
+	display: box;
 	border-bottom:ridge 4px #0FF;
 }
 #Bottom_Box1 {
@@ -615,6 +664,6 @@ img, object, embed, video {
 	margin-left: 0;
 	width: 100%;
 	height:290px;
-	display: none;
+	display: box;
 }
 }

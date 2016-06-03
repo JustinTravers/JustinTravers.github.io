@@ -30,8 +30,12 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
-<body>
-<!-- TemplateBeginEditable name="EditRegion3" -->
+<body onLoad="timer()">
+<!-- TemplateBeginEditable name="EditRegion5" -->
+	<style>
+	
+	</style>
+	  <!-- TemplateEndEditable -->
 <div class="gridContainer clearfix">
 <div id="Whole_Page">
   
@@ -57,19 +61,67 @@ Do the following if you're using your customized build of modernizr (http://www.
   	
     <div id="Top_Left"></div>
     
-    <div id="Bottom_Left"></div>
+    <div id="Bottom_Left">
+    	<div id="slideshow">
+<img id="slideimg" src="slide_show1.png"/>
+	<script>
+		var image = [], x=0
+		
+		image[0]="slide_show1.png";
+		
+		image[1]="slide_show2.png";
+		
+		image[2]="slide_show3.png"; 
+		
+		image[3]="slide_show4.png";
+		
+		image[4]="slide_show5.png";
+		
+		image[5]="slide_show6.png";
+		
+		image[6]="slide_show7.png";
+		
+		image[7]="slide_show8.png";
+		
+		image[8]="slide_show9.png";
+		
+		image[9]="slide_show10.png";
+		
+		image[10]="slide_show11.png";
+		
+		image[11]="slide_show12.png";
+		
+		image[12]="slide_show13.png";
+		
+		function next(){
+			x= x + 1;
+			document.getElementById('slideimg').src = image[x]
+			if (x==12)
+			{x=0}
+		}
+		
+		function timer () {
+			setInterval(next, 2500);
+		}
+		</script>
+
+</div>
+    </div>
     
     <div id="Right_Content">
    	  
       <div id="Top_Box1"></div>
-      
+      <!-- TemplateBeginEditable name="EditRegion1" -->
+	  
+	  <!-- TemplateEndEditable -->
       <div id="Bottom_Box1"></div>
-    
+      <!-- TemplateBeginEditable name="EditRegion2" -->
+	  
+	  <!-- TemplateEndEditable -->
     </div>
   
   </div>
 
 </div>
-<!-- TemplateEndEditable -->
 </body>
 </html>
