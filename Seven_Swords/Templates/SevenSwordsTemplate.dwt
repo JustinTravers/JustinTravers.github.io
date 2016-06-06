@@ -110,14 +110,16 @@ Do the following if you're using your customized build of modernizr (http://www.
     
     <div id="Right_Content">
    	  
-      <div id="Top_Box1"></div>
+      <div id="Top_Box1">
       <!-- TemplateBeginEditable name="EditRegion1" -->
 	  
 	  <!-- TemplateEndEditable -->
-      <div id="Bottom_Box1"></div>
+      </div>
+      <div id="Bottom_Box1">
       <!-- TemplateBeginEditable name="EditRegion2" -->
 	  
 	  <!-- TemplateEndEditable -->
+      </div>
     </div>
   
   </div>
