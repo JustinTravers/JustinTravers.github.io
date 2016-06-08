@@ -1,0 +1,71 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exam</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="Exam_buttons3.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+<body>
+<h1>Justin Travers</h1>
+	<div id="1">
+    	<ul>
+        	<li>Dogs</li>
+            <li>Kat</li>
+            <li>Cats</li>
+        </ul>
+    </div>
+    <div id="2">
+    	<ul>
+        	<li>My Brother</li>
+            <li>My Girlfriends Mother</li>
+            <li>This Test ;)</li>
+        </ul>
+    </div>
+    <button onclick="display1()">no list</button>
+    <button onclick="display2()">likes</button>
+    <button onclick="display3()">dislikes</button>
+    
+    <body onload="L()">
+    <script>
+	function L(){
+		document.getElementById('1').style.display="none";
+		document.getElementById('2').style.display="none";
+	}
+	function display2(){
+		document.getElementById('1').style.display="block";
+		document.getElementById('2').style.display="none";
+		document.getElementById('1').style.color="green";
+	}
+	function display3(){
+		document.getElementById('1').style.display="none";
+		document.getElementById('2').style.display="block";
+		document.getElementById('2').style.color="red";
+	}
+	function display1(){
+		document.getElementById('1').style.display="none";
+		document.getElementById('2').style.display="none";
+	}
+	</script>
+</body>
+</html>
